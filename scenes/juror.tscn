@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://doi6pa81g5kex"]
+
+[node name="Juror" type="TextureRect" unique_id=1239043082]
+offset_right = 40.0
+offset_bottom = 40.0

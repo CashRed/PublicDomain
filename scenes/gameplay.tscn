@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://do6jew37g6n3q"]
+
+[ext_resource type="Script" uid="uid://c1kjhl8023rad" path="res://scripts/gameplay.gd" id="1_7biu0"]
+
+[node name="gameplay" type="Node2D" unique_id=112351670]
+script = ExtResource("1_7biu0")
+
+[node name="JurorBox" type="PanelContainer" parent="." unique_id=1298853783]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GridContainer" type="GridContainer" parent="JurorBox" unique_id=1981897736]
+layout_mode = 2
+columns = 4

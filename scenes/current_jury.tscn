@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bbipg1akjyfwt"]
+
+[ext_resource type="Script" uid="uid://biwk18jfbqy1x" path="res://scripts/current_jury.gd" id="1_dkxwa"]
+
+[node name="current_jury" type="Node" unique_id=1564783359]
+script = ExtResource("1_dkxwa")
