@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="JuryMember" format=3 uid="uid://d057v4r0qihks"]
+
+[ext_resource type="Script" uid="uid://cijtf3nukjt0c" path="res://scripts/JuryMember.gd" id="1_dcm7x"]
+[ext_resource type="Texture2D" uid="uid://da6aph143uksa" path="res://assets/TestingTerry.png" id="2_ohy47"]
+
+[resource]
+script = ExtResource("1_dcm7x")
+character_name = "Jury Jimmy"
+texture = ExtResource("2_ohy47")
+modifiers = Array[String](["Sane", "Calming", "Coin Toss"])
+metadata/_custom_type_script = "uid://cijtf3nukjt0c"

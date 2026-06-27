@@ -1,7 +1,0 @@
-[gd_scene format=3 uid="uid://dp1w2o1p0w5cw"]
-
-[ext_resource type="Script" uid="uid://ciofkn4mgnr71" path="res://juror_randomizer.gd" id="1_o3v2k"]
-
-[node name="JurorRandomizer" type="Node" unique_id=1864125269]
-script = ExtResource("1_o3v2k")
-juror_spawn_rates = null

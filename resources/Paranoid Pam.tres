@@ -1,7 +1,0 @@
-[gd_resource type="Resource" script_class="JuryMember" format=3 uid="uid://cmude042pg5m5"]
-
-[ext_resource type="Script" uid="uid://cijtf3nukjt0c" path="res://scripts/JuryMember.gd" id="1_6p7ku"]
-
-[resource]
-script = ExtResource("1_6p7ku")
-metadata/_custom_type_script = "uid://cijtf3nukjt0c"

@@ -1,6 +1,0 @@
-[gd_scene format=3 uid="uid://b6xjcfr88d3dn"]
-
-[ext_resource type="Script" uid="uid://da0s2qtu5xlm7" path="res://scripts/argument_manager.gd" id="1_7blq3"]
-
-[node name="ArgumentManager" type="Node" unique_id=1500303892]
-script = ExtResource("1_7blq3")
