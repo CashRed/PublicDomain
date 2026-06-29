@@ -16,5 +16,6 @@ func add_juror(new_juror: JuryMember, amount: int = 1) -> int:
 			break
 		if seat.is_empty():
 			seat.juror = new_juror
+			remaining -= 1
 	new_jury.emit()
 	return remaining

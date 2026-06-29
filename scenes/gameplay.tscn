@@ -6,15 +6,23 @@
 [node name="gameplay" type="Node2D" unique_id=112351670]
 script = ExtResource("1_7biu0")
 
-[node name="JurorBox" type="PanelContainer" parent="." unique_id=1298853783]
+[node name="JurorBoxUISeat" type="PanelContainer" parent="." unique_id=1298853783]
+custom_minimum_size = Vector2(100, 120)
 offset_left = 50.0
 offset_top = 46.0
 offset_right = 262.0
 offset_bottom = 150.0
 
-[node name="JuryBoxSeats" type="GridContainer" parent="JurorBox" unique_id=1981897736]
+[node name="JuryBoxSeats" type="GridContainer" parent="JurorBoxUISeat" unique_id=1981897736]
 layout_mode = 2
 columns = 4
+
+[node name="Avatar" type="TextureRect" parent="JurorBoxUISeat/JuryBoxSeats" unique_id=28128709]
+layout_mode = 2
+expand_mode = 1
+
+[node name="JurorName" type="Label" parent="JurorBoxUISeat/JuryBoxSeats" unique_id=61646667]
+layout_mode = 2
 
 [node name="PanelContainer" type="PanelContainer" parent="." unique_id=1034741496]
 offset_left = 516.0

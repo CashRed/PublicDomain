@@ -1,4 +1,4 @@
-class_name InventorySlot
+class_name JuryBoxSeats
 extends Resource
 
 var juror: JuryMember = null
